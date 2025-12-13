@@ -39,10 +39,9 @@ Our method achieves orders-of-magnitude faster training convergence compared to 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/efficient-score-embedding-single-image.git](https://github.com/YOUR_USERNAME/efficient-score-embedding-single-image.git)
+    git clone [https://github.com/YOUR_USERNAME/efficient-score-embedding-single-image.git](https://github.com/kaikwanlau/efficient-score-embedding-single-image.git)
     cd efficient-score-embedding-single-image
     ```
-
 2.  **Install dependencies:**
     ```bash
     pip install torch torchvision numpy scipy matplotlib tqdm pillow
