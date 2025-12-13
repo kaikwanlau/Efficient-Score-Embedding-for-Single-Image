@@ -32,9 +32,9 @@ Our method achieves orders-of-magnitude faster training convergence compared to 
 
 | Dataset | Resolution | Target SSIM | Time (DDPM) | **Time (Ours)** | **Speedup** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **CIFAR-10** | $32 \times 32$ | 0.99 | 1634.93s | **60.27s** | **27.13×** |
-| **CelebA** | $64 \times 64$ | 0.99 | 14131.53s | **122.45s** | **115.40×** |
-| **CelebA** | $128 \times 128$ | 0.90 | 11319.86s | **186.09s** | **60.83×** |
+| **CIFAR-10** | 32 × 32 | 0.99 | 1634.93s | **60.27s** | **27.13×** |
+| **CelebA** | 64 × 64 | 0.99 | 14131.53s | **122.45s** | **115.40×** |
+| **CelebA** | 128 × 128 | 0.90 | 11319.86s | **186.09s** | **60.83×** |
 
 > **Key Result:** On CelebA ($64 \times 64$), our method reduces training time from **~4 hours** (14,131s) to just **~2 minutes** (122s).
 
