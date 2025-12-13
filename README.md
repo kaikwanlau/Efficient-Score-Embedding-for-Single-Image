@@ -63,7 +63,7 @@ Our method achieves orders-of-magnitude faster training convergence compared to 
     The script will:
     * Pre-compute the scores using the Fokker-Planck solver.
     * Embed the scores into the image.
-    * Train the U-Net model until the target SSIM (0.99) is reached.
+    * Train the U-Net model until the target SSIM (0.95) is reached.
     * Save the results (plots, denoised images, and metrics) to the `Results/` directory.
     * ![Adobe Express - 10](https://github.com/user-attachments/assets/528cc80a-9a69-43b6-ba08-ff0ae77d0565)
 
