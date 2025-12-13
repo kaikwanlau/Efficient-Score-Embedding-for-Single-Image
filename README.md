@@ -8,7 +8,7 @@ This repository contains the official PyTorch implementation of the **Single-Ima
 **"Efficient Score Pre-computation for Diffusion Models via Cross-Matrix Krylov Projection"**
 *Kaikwan Lau, Andrew S. Na, Justin W.L. Wan* (2025)
 
-## 📖 Overview
+## Overview
 
 This code reproduces the "Our Method" baseline results presented in **Table 1** of the paper. It demonstrates the **Score Embedding Framework**, a technique that significantly accelerates diffusion model training for single images by leveraging numerical PDE solvers.
 
@@ -21,7 +21,7 @@ Instead of learning score functions from scratch (like standard DDPM), this appr
 3.  **Trains the model** to match these pre-computed scores, allowing for rapid convergence.
 4.  **Optimizes training time** using an SSIM-based early stopping mechanism.
 
-## 📊 Results
+## Results
 
 As reported in the paper (Table 1), this method achieves a **~27x speedup** compared to a standard DDPM baseline on CIFAR-10 (32x32) while maintaining high image quality.
 
@@ -30,7 +30,7 @@ As reported in the paper (Table 1), this method achieves a **~27x speedup** comp
 | Standard DDPM | 0.99 | ~1634.93s | 1x |
 | **Our Method (This Code)** | **0.99** | **~60.27s** | **~27.13x** |
 
-## 🛠️ Installation
+## Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -43,7 +43,7 @@ As reported in the paper (Table 1), this method achieves a **~27x speedup** comp
     pip install torch torchvision numpy scipy matplotlib tqdm pillow
     ```
 
-## 🚀 Usage
+## Usage
 
 1.  **Prepare your image:**
     Place a 32x32 image named `image_CIFAR-10_32x32.png` in the root directory (or update the `IMAGE_PATH` variable in the script).
@@ -58,14 +58,17 @@ As reported in the paper (Table 1), this method achieves a **~27x speedup** comp
     * Embed the scores into the image.
     * Train the U-Net model until the target SSIM (0.99) is reached.
     * Save the results (plots, denoised images, and metrics) to the `SSIM=0.99_Basic_Paper_Aligned_Custom128x128_Results/` directory.
+    * <img width="3060" height="448" alt="miku2024_denoising_process" src="https://github.com/user-attachments/assets/b471650c-850a-4cc4-8885-5f1754c34a7c" />
+<img width="3060" height="448" alt="miku2025_denoising_process" src="https://github.com/user-attachments/assets/172748bc-8461-43d1-94ad-c44d8cfff3b1" />
 
-## 📂 Repository Structure
+
+## Repository Structure
 
 * `main_score_embedding.py`: The main script implementing the Fokker-Planck solver, U-Net, and training loop.
 * `assets/`: Contains sample images for testing.
 * `results/`: (Generated at runtime) Stores training logs, loss curves, and generated images.
 
-## 📜 Citation
+## Citation
 
 If you find this code useful for your research, please cite our paper:
 
