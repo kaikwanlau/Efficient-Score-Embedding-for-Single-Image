@@ -57,7 +57,7 @@ Our method achieves orders-of-magnitude faster training convergence compared to 
 
 2.  **Run the experiment:**
     ```bash
-    python main_score_embedding.py
+    python efficient-score-embedding-single-image.py
     ```
 
     The script will:
