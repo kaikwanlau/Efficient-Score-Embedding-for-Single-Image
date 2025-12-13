@@ -3,6 +3,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2511.17634-b31b1b.svg)](https://arxiv.org/abs/2511.17634)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![Adobe Express - 10](https://github.com/user-attachments/assets/528cc80a-9a69-43b6-ba08-ff0ae77d0565)
+
 This repository contains the official PyTorch implementation of the **Single-Image Denoising Experiment** (Experiment 1) from the paper:
 
 **"Efficient Score Pre-computation for Diffusion Models via Cross-Matrix Krylov Projection"**
