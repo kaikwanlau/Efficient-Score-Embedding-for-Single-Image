@@ -58,8 +58,8 @@ As reported in the paper (Table 1), this method achieves a **~27x speedup** comp
     * Embed the scores into the image.
     * Train the U-Net model until the target SSIM (0.99) is reached.
     * Save the results (plots, denoised images, and metrics) to the `Results/` directory.
-    * <img width="3060" height="448" alt="miku2024_denoising_process" src="https://github.com/user-attachments/assets/b471650c-850a-4cc4-8885-5f1754c34a7c" />
-    * <img width="3060" height="448" alt="miku2025_denoising_process" src="https://github.com/user-attachments/assets/172748bc-8461-43d1-94ad-c44d8cfff3b1" />
+    <img width="3060" height="448" alt="miku2024_denoising_process" src="https://github.com/user-attachments/assets/b471650c-850a-4cc4-8885-5f1754c34a7c" />
+    <img width="3060" height="448" alt="miku2025_denoising_process" src="https://github.com/user-attachments/assets/172748bc-8461-43d1-94ad-c44d8cfff3b1" />
 
 
 ## Repository Structure
