@@ -70,6 +70,8 @@ Our method achieves orders-of-magnitude faster training convergence compared to 
 ## Repository Structure
 
 * `efficient-score-embedding-single-image.py`: The main script implementing the Fokker-Planck solver, U-Net, and training loop.
+* `miku2024.jpg`: An image demonstration of Magical Mirai 2024.
+* `miku2025.jpg`: An image demonstration of Magical Mirai 2025.
 
 ## Citation
 
