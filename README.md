@@ -69,9 +69,7 @@ Our method achieves orders-of-magnitude faster training convergence compared to 
 
 ## Repository Structure
 
-* `main_score_embedding.py`: The main script implementing the Fokker-Planck solver, U-Net, and training loop.
-* `assets/`: Contains sample images for testing.
-* `results/`: (Generated at runtime) Stores training logs, loss curves, and generated images.
+* `efficient-score-embedding-single-image.py`: The main script implementing the Fokker-Planck solver, U-Net, and training loop.
 
 ## Citation
 
