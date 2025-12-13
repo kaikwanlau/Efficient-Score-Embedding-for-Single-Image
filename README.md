@@ -3,9 +3,10 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2511.17634-b31b1b.svg)](https://arxiv.org/abs/2511.17634)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    <img width="3060" height="448" alt="miku2024_denoising_process" src="https://github.com/user-attachments/assets/b471650c-850a-4cc4-8885-5f1754c34a7c" />
-    
-    <img width="3060" height="448" alt="miku2025_denoising_process" src="https://github.com/user-attachments/assets/172748bc-8461-43d1-94ad-c44d8cfff3b1" />
+<img width="3060" height="448" alt="miku2024_denoising_process" src="https://github.com/user-attachments/assets/bdfd981b-4c59-49bc-b964-eb76ba48ba8d" />
+
+<img width="3060" height="448" alt="miku2025_denoising_process" src="https://github.com/user-attachments/assets/5b7a7027-079c-4d99-92bd-254f9b9c67ca" />
+
 
 This repository contains the official PyTorch implementation of the **Single-Image Denoising Experiment** (Experiment 1) from the paper:
 
