@@ -23,14 +23,17 @@ Instead of learning score functions from scratch (like standard DDPM), this appr
 3.  **Trains the model** to match these pre-computed scores, allowing for rapid convergence.
 4.  **Optimizes training time** using an SSIM-based early stopping mechanism.
 
-## Results
+## Experimental Results
 
-As reported in the paper (Table 1), this method achieves a **~27x speedup** compared to a standard DDPM baseline on CIFAR-10 (32x32) while maintaining high image quality.
+Our method achieves orders-of-magnitude faster training convergence compared to DDPM while maintaining high image quality.
 
-| Method | Target SSIM | Training Time (s) | Speedup |
-| :--- | :---: | :---: | :---: |
-| Standard DDPM | 0.99 | ~1634.93s | 1x |
-| **Our Method (This Code)** | **0.99** | **~60.27s** | **~27.13x** |
+| Dataset | Resolution | Target SSIM | Time (DDPM) | **Time (Ours)** | **Speedup** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **CIFAR-10** | $32 \times 32$ | 0.99 | 1634.93s | **60.27s** | **27.13×** |
+| **CelebA** | $64 \times 64$ | 0.99 | 14131.53s | **122.45s** | **115.40×** |
+| **CelebA** | $128 \times 128$ | 0.90 | 11319.86s | **186.09s** | **60.83×** |
+
+> **Key Result:** On CelebA ($64 \times 64$), our method reduces training time from **~4 hours** (14,131s) to just **~2 minutes** (122s).
 
 ## Installation
 
