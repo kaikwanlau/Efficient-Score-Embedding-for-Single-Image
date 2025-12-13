@@ -53,7 +53,7 @@ Our method achieves orders-of-magnitude faster training convergence compared to 
 ## Usage
 
 1.  **Prepare your image:**
-    Place a 32x32 image named `image_CIFAR-10_32x32.png` in the root directory (or update the `IMAGE_PATH` variable in the script).
+    Place a 32x32 image named `miku.jpg` in the root directory (or update the `IMAGE_PATH` variable in the script).
 
 2.  **Run the experiment:**
     ```bash
