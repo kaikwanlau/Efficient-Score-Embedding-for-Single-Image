@@ -796,12 +796,6 @@ class BasicScoreEmbeddingCustomImage:
             f.write(f"  Epochs: {len(losses)}\n")
             f.write(f"  Final loss: {losses[-1] if losses else 'N/A'}\n")
             f.write(f"  Final MSE: {mse_values[-1] if mse_values else 'N/A'}\n\n")
-            f.write(f"Paper Method Features:\n")
-            f.write(f"  ✓ Basic Fokker-Planck solver\n")
-            f.write(f"  ✓ Simple score embedding via transport equation\n")
-            f.write(f"  ✓ Enhanced U-Net architecture for 128x128\n")
-            f.write(f"  ✓ Standard training loop\n")
-            f.write(f"  ✓ Basic reverse SDE denoising\n")
 
         print(f"Basic results saved to: {self.output_dir}/")
 
