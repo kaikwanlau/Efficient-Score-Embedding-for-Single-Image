@@ -3,24 +3,36 @@
 # This script implements the Single-Image Denoising experiment using Score Embedding,
 # reproducing the "Our Method" baseline from Experiment 1 of the paper:
 # "Efficient Score Pre-computation for Diffusion Models via Cross-Matrix Krylov Projection"
-# (arXiv:2511.17634).
+# by Kaikwan Lau, Andrew S. Na, and Justin W. L. Wan.
+#
+# Published in the proceedings of the 28th International Conference on Pattern
+# Recognition (ICPR 2026), Pattern Recognition, Part II, LNCS vol. 16813, pp. 697-712.
+# Published paper: https://doi.org/10.1007/978-3-032-31583-0_46
+# Preprint: https://arxiv.org/abs/2511.17634
 #
 # Actions:
 # 1. Load a single custom image (e.g., 32x32).
 # 2. Pre-compute exact scores by numerically solving the Fokker-Planck equation
-#    [cite_start]using a finite difference solver [cite: 38-39, 41, 71].
-# [cite_start]3. Embed these scores into the image via the probability flow ODE (Transport Equation) [cite: 209-210].
+#    using a finite difference solver.
+# 3. Embed these scores into the image via the probability flow ODE (Transport Equation).
 # 4. Train a U-Net model to match these scores with SSIM-based early stopping.
 # 5. Generate and save training metrics (MSE, PSNR) and the final denoised result.
 #
 # Citation:
-# If you use this code, please cite the following paper:
+# If you use this code, please cite the ICPR 2026 proceedings paper.
+# The citation follows Springer's publication-year metadata (2027) for ICPR 2026.
 #
-# @article{lau2025efficient,
+# @inproceedings{lau_icpr2026,
 #   title={Efficient Score Pre-computation for Diffusion Models via Cross-Matrix Krylov Projection},
-#   author={Lau, Kaikwan and Na, Andrew S and Wan, Justin WL},
-#   journal={arXiv preprint arXiv:2511.17634},
-#   year={2025}
+#   author={Lau, Kaikwan and Na, Andrew S. and Wan, Justin W. L.},
+#   booktitle={Pattern Recognition -- 28th International Conference, ICPR 2026, Proceedings, Part II},
+#   series={Lecture Notes in Computer Science},
+#   volume={16813},
+#   pages={697--712},
+#   publisher={Springer, Cham},
+#   year={2027},
+#   doi={10.1007/978-3-032-31583-0_46},
+#   url={https://doi.org/10.1007/978-3-032-31583-0_46}
 # }
 #
 # ===================================================================================
