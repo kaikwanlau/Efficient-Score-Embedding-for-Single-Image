@@ -1,5 +1,7 @@
 # Efficient Score Embedding for Single-Image Denoising
 
+[![ICPR 2026](https://img.shields.io/badge/ICPR-2026-blue.svg)](https://icpr2026.org/)
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--032--31583--0__46-blue.svg)](https://doi.org/10.1007/978-3-032-31583-0_46)
 [![arXiv](https://img.shields.io/badge/arXiv-2511.17634-b31b1b.svg)](https://arxiv.org/abs/2511.17634)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,7 +13,11 @@
 This repository contains the official PyTorch implementation of the **Single-Image Denoising Experiment** (Experiment 1) from the paper:
 
 **"Efficient Score Pre-computation for Diffusion Models via Cross-Matrix Krylov Projection"**
-*Kaikwan Lau, Andrew S. Na, Justin W.L. Wan* (2025)
+*Kaikwan Lau, Andrew S. Na, Justin W. L. Wan*
+
+Published in the proceedings of the **28th International Conference on Pattern Recognition (ICPR 2026)**, *Pattern Recognition, Part II*, Lecture Notes in Computer Science, vol. 16813, pp. 697–712.
+
+[**Published paper (Springer)**](https://doi.org/10.1007/978-3-032-31583-0_46) · [**Preprint (arXiv)**](https://arxiv.org/abs/2511.17634)
 
 ## Overview
 
@@ -75,12 +81,21 @@ Our method achieves orders-of-magnitude faster training convergence compared to 
 
 ## Citation
 
-If you find this code useful for your research, please cite our paper:
+If you find this code useful for your research, please cite the ICPR 2026 proceedings paper:
+
+The citation below follows Springer's publication-year metadata (2027) for the ICPR 2026 proceedings.
 
 ```bibtex
-@article{lau2025efficient,
+@inproceedings{lau_icpr2026,
   title={Efficient Score Pre-computation for Diffusion Models via Cross-Matrix Krylov Projection},
-  author={Lau, Kaikwan and Na, Andrew S and Wan, Justin WL},
-  journal={arXiv preprint arXiv:2511.17634},
-  year={2025}
+  author={Lau, Kaikwan and Na, Andrew S. and Wan, Justin W. L.},
+  booktitle={Pattern Recognition -- 28th International Conference, ICPR 2026, Proceedings, Part II},
+  series={Lecture Notes in Computer Science},
+  volume={16813},
+  pages={697--712},
+  publisher={Springer, Cham},
+  year={2027},
+  doi={10.1007/978-3-032-31583-0_46},
+  url={https://doi.org/10.1007/978-3-032-31583-0_46}
 }
+```
